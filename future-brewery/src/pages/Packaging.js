@@ -3,7 +3,7 @@ import Header from '../components/Header';
 
 function Packaging() {
   return (
-    <div>
+    <div className="packaging-container">
       <Header title="Envase" />
     </div>
   )

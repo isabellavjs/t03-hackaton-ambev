@@ -3,7 +3,7 @@ import Header from '../components/Header';
 
 function Maturation() {
   return (
-    <div>
+    <div className="maturation-container">
       <Header title="Maturação" />
     </div>
   )
