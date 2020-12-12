@@ -4,7 +4,7 @@ import Header from '../components/Header';
 function Lautering() {
   return (
     <div className="lautering-container">
-      <Header title="Maturação" />
+      <Header title="Mosturação" />
     </div>
   )
 };
