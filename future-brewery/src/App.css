@@ -24,6 +24,34 @@
   color: white;
 }
 
+.ingredients-container {
+  display: flex;
+}
+
+.milling-container {
+  display: flex;
+}
+
+.lautering-container {
+  display: flex;
+}
+
+.fermenting-container {
+  display: flex;
+}
+
+.maturation-container {
+  display: flex;
+}
+
+.filtration-container {
+  display: flex;
+}
+
+.packaging-container {
+  display: flex;
+}
+
 .App-link {
   color: #61dafb;
 }
