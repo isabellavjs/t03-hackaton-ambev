@@ -4,6 +4,8 @@ Repositório criado para desenvolver uma solução para o desafio cervejaria fle
 
 Utilizamos o [React](https://pt-br.reactjs.org/) para a criação de UI interativas, e a biblioteca [Bootstrap](https://getbootstrap.com/) para criar um App responsivo. Utilizamos o [React-Router](https://reactrouter.com/core/guides/quick-start) para criar Links de navegação de forma declarativa. Para o MVP, disponibilizamos a página principal e as páginas de cada etapa do processo, onde o usuário terá acesso ao consumo de água e energia dos principais equipamentos dessa área. O design da aplicação foi feito tendo como base o protótipo do Figma disponibilizado pela UX do grupo.
 
+Confira [aqui](https://www.figma.com/proto/20Uaa3zifmGFzCy1epYU4O/Bootstrap-4%2B-UI-Kit-(Community)?node-id=32%3A140&scaling=scale-down) o nosso protótipo no Figma!
+
 ### Problema
 
 - [x] Alto consumo de energia elétrica
