@@ -8,7 +8,7 @@ import graphic1 from '../images/graphic-energia-azul.svg';
 
 function Filtration () {
   return (
-    <div className="filtration-container">
+    <div>
       <Header title="Filtração" />
       <img src={ filtragem } alt="Filtragem" />
       <Accordion>

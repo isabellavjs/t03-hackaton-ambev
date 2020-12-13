@@ -8,7 +8,7 @@ import graphic1 from '../images/graphic-energia-azul.svg';
 
 function Fermeting() {
   return (
-    <div className="fermenting-container">
+    <div>
       <Header title="Fermentação" />
       <img src={ fermentacao } alt="Fermentação" />
       <Accordion>

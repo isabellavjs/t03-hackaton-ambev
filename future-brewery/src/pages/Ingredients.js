@@ -9,7 +9,7 @@ import graphic1 from '../images/graphic-energia-azul.svg';
 
 function Ingredients() {
   return (
-    <div className="ingredients-container">
+    <div>
       <Header title="Ingredientes" />
       <img src={ ingredientes } alt="Ingredientes" />
       <Accordion>

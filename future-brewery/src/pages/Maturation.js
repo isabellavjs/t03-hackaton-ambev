@@ -8,7 +8,7 @@ import graphic1 from '../images/graphic-energia-azul.svg';
 
 function Maturation() {
   return (
-    <div className="maturation-container">
+    <div>
       <Header title="Maturação" />
       <img src={ maturacao } alt="Maturação" />
       <Accordion>
