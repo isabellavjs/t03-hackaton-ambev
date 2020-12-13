@@ -5,9 +5,11 @@ import Footer from '../components/Footer';
 
 function Packaging() {
   return (
-    <div className="packaging-container">
+    <div>
       <Header title="Envase" />
-      <img src={ envase } alt="Envase" />
+      <div className="packaging-container">
+        <img src={ envase } alt="Envase" />
+      </div>
       <Footer />
     </div>
   )

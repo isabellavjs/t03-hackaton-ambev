@@ -2,9 +2,13 @@ import React from 'react';
 
 function Footer () {
   return (
-    <div>
-      <footer className="App-footer">
-        <p>Logo ambevTech</p>
+    <div className="App-footer">
+      <footer>
+        <nav className="navigation">
+          <p>AmbevGren</p>
+          <p>Publicações</p>
+          <p>Histórico</p>
+        </nav>
       </footer>
     </div>
   )
