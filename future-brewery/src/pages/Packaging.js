@@ -4,7 +4,8 @@ import envase from '../images/envase.jpg';
 import Footer from '../components/Footer';
 import { Accordion, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import fermentacao from '../images/fermentacao.jpg';
+import graphic1 from '../images/graphic1.svg';
+import graphic2 from '../images/graphic2.svg';
 
 
 function Packaging() {
@@ -12,11 +13,6 @@ function Packaging() {
     <div>
       <Header title="Envase" />
       <img src={ envase } alt="Envase" />
-      <div className="packaging-container">
-        <div className="lavadora-container">
-          <h5>Lavadora</h5>
-        </div>
-      </div>
       <div>
         <Accordion>
           <Card>
@@ -25,23 +21,15 @@ function Packaging() {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <Card.Body>
-                <img src={fermentacao} alt="fermentação" />
+                <img src={graphic1} alt="Gráfico-energia" />
+                <img src={graphic2} alt="Gráfico-água" />
               </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="1">
-              TAB 2
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="1">
-              <Card.Body>This is second tab body</Card.Body>
             </Accordion.Collapse>
           </Card>
         </Accordion>
       </div>
-      <Footer />
     </div>
   )
-};
+  };
 
-export default Packaging;
+  export default Packaging;

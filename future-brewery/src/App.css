@@ -72,14 +72,14 @@ img {
   margin: 18px;
 }
 
-.btn {
+.btn-main {
   font-size: 10px;
   font-weight: 600;
-  width: 97px;
+  width: 140px;
   letter-spacing: 2px;
-  background-color: #F3E04E;
-  color: #535558;
-  border: none;
+  background-color: #4be368 !important;
+  color: #535558 !important;
+  border: none !important;
   margin-bottom: 6px;
 }
 

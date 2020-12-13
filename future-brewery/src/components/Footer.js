@@ -8,7 +8,7 @@ function Footer () {
     <div className="App-footer">
       <footer>
         <nav className="navigation">
-          <p>Publicações</p>
+          <p>Feed notícias</p>
           <Link className="link" to="/">
             <FontAwesomeIcon icon={ faHome } />
           </Link>
