@@ -8,7 +8,7 @@ import graphic1 from '../images/graphic-energia-azul.svg';
 
 function Milling() {
   return (
-    <div className="milling-container">
+    <div>
       <Header title="Moagem" />
       <img src={ moagem } alt="Moedor" />
       <Accordion>
