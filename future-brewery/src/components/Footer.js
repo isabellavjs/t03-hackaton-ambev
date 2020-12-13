@@ -8,11 +8,11 @@ function Footer () {
     <div className="App-footer">
       <footer>
         <nav className="navigation">
-          <p>Feed notícias</p>
+          <p>Feed de notícias</p>
           <Link className="link" to="/">
             <FontAwesomeIcon icon={ faHome } />
           </Link>
-          <p>Histórico</p>
+          <p>Histórico de consumo</p>
         </nav>
       </footer>
     </div>
