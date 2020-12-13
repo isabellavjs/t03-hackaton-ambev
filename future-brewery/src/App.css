@@ -24,7 +24,12 @@
   color: white;
 }
 
-.ingredients-container {
+img {
+  width: 411px;
+  height: 163px;
+}
+
+/* .ingredients-container {
   display: flex;
 }
 
@@ -50,7 +55,7 @@
 
 .packaging-container {
   display: flex;
-}
+} */
 
 .App-link {
   color: #61dafb;
