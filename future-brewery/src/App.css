@@ -43,6 +43,28 @@ img {
   height: 163px;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons-container {
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 18px;
+}
+
+.btn {
+  font-size: large;
+  letter-spacing: 2px;
+  background-color: #F3E04E;
+  color: #282c34;
+  border: none;
+}
+
 /* .ingredients-container {
   display: flex;
 }

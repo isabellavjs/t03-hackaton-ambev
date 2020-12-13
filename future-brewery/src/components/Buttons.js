@@ -1,16 +1,17 @@
+import React from 'react';
 import { useHistory } from 'react-router-dom';
 
 function Buttons() {
   const history = useHistory();
 
   return (
-    <div>
-      <button onClick={() => history.push('/ingredientes')}>Ingredientes</button>
-      <button onClick={() => history.push('moagem')}>Moagem</button>
-      <button onClick={() => history.push('/fermentacao')}>Fermentação</button>
-      <button onClick={() => history.push('/maturacao')}>Maturação</button>
-      <button onClick={() => history.push('/filtracao')}>Filtração</button>
-      <button onClick={() => history.push('/envase')}>Envase</button>
+    <div className="buttons-container">
+      <button type="button" className="btn btn-primary" onClick={() => history.push('/ingredientes')}>Ingredientes</button>
+      <button type="button" className="btn btn-primary" onClick={() => history.push('moagem')}>Moagem</button>
+      <button type="button" className="btn btn-primary" onClick={() => history.push('/fermentacao')}>Fermentação</button>
+      <button type="button" className="btn btn-primary" onClick={() => history.push('/maturacao')}>Maturação</button>
+      <button type="button" className="btn btn-primary" onClick={() => history.push('/filtracao')}>Filtração</button>
+      <button type="button" className="btn btn-primary" onClick={() => history.push('/envase')}>Envase</button>
     </div>
   )
 };

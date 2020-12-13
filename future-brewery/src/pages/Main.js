@@ -1,13 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
-import Button from '../components/Buttons';
+import Buttons from '../components/Buttons';
 import Footer from '../components/Footer';
 
 function Main () {
 return(
-  <div className="header-container">
+  <div>
     <Header title="Home" />
-    <Button />
+    <div className="main-container">
+    <Buttons />
       <div class="carousel-item">
         <img src="..." alt="..." />
         <div class="carousel-caption d-none d-md-block">
@@ -44,6 +45,7 @@ return(
           <h5>...</h5>
         </div>
       </div>
+    </div>
       <Footer />
   </div>
 )
