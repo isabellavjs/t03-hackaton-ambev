@@ -2,11 +2,9 @@ import React from 'react';
 import Header from '../components/Header';
 import Buttons from '../components/Buttons';
 import Footer from '../components/Footer';
-import ingredientes from '../images/ingredientes.jpg';
-import moagem from '../images/moagem.jpg';
-import fermentacao from '../images/fermentacao.jpg';
 import Carousel from 'react-bootstrap/Carousel';
-
+import porco from '../images/porco.jpeg';
+import rankingTrofeus from '../images/ranking-trofeus.jpeg';
 
 function Main () {
   return(
@@ -17,37 +15,22 @@ function Main () {
       <Carousel>
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            src={ingredientes}
-            alt="First slide"
+            className="d-block w-100 carrosel"
+            src={ porco }
+            alt="porco"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3 className="carrosel-legenda">Metas</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100"
-            src={moagem}
-            alt="Third slide"
+            className="d-block w-100 carrosel"
+            src={ rankingTrofeus }
+            alt="ranking"
           />
-
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={fermentacao}
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h3 className="carrosel-legenda">Destaque por área</h3>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
