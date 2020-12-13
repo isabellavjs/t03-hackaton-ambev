@@ -7,7 +7,7 @@ function Header ({ title }) {
   return(
     <div className="App-header">
       <div>
-        <img src={ logo } alt="logo" />
+        <img className="logo" src={ logo } alt="logo" />
       </div>
       <header>
         <h1 className="page-title">
