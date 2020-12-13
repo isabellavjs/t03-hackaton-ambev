@@ -7,7 +7,7 @@ import graphic1 from '../images/graphic-energia-azul.svg';
 
 function Lautering() {
   return (
-    <div className="lautering-container">
+    <div>
       <Header title="Mosturação" />
       <Accordion>
           <Card>
