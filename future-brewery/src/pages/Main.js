@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Button from '../components/Buttons';
+import Footer from '../components/Footer';
 
 function Main () {
 return(
@@ -43,6 +44,7 @@ return(
           <h5>...</h5>
         </div>
       </div>
+      <Footer />
   </div>
 )
 }
