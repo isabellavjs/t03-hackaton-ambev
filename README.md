@@ -8,15 +8,15 @@ Utilizamos o [React](https://pt-br.reactjs.org/) para a criação de UI interati
 
 - [x] Alto consumo de energia elétrica
 - [x] Alto consumo de água em praticamente todas as etapas de produção
-- [x] Necessidade de se ter mais controle do processo, utilizando tecnologias para reduzir o consumo de energia
-- [x] Necessidade de se manter a equipe de funcionários sempre engajada
+- [x] Necessidade de se ter mais controle do processo, utilizando tecnologias para reduzir o consumo de energia e água
+- [x] Necessidade de manter a equipe de funcionários sempre engajada
 
 ### Solução
 
-- [x] Aplicativo para o monitoramento em tempo real de indicadores de consumo de energia elétrica e água nas fábricas
+- [x] Aplicativo para o monitoramento, em tempo real, de indicadores de consumo de energia elétrica e água nas fábricas
 - [x] O App é acessível a todos os colaboradores da Ambev, permitindo a rápida identificação de desvios e contribuindo para a redução de desperdícios
 - [x] Promove a democratização do acesso a informações importantes da área, para que os funcionários envolvidos no processo possam ter mais autonomia para atuar e solucionar problemas
-- [x] A ferramenta proporciona a troca de experiências entre diferentes áreas e unidades da Ambev através de um feed de notícias, e destaca as equipes com melhores resultados nos indicadores para consumo de água e energia
+- [x] A ferramenta proporciona a troca de experiências entre diferentes áreas e unidades da Ambev através de um feed de notícias, disponibiliza as metas de consumo por área, e destaca as equipes com melhores resultados nos indicadores para consumo de água e energia
 
 ### Integrantes da Equipe 3
 
@@ -24,6 +24,6 @@ Utilizamos o [React](https://pt-br.reactjs.org/) para a criação de UI interati
 - :raising_hand: [Fernanda Santos](https://www.linkedin.com/in/fer-campos/) - UX/UI
 - :woman_technologist: [Isabella Joviano](https://www.linkedin.com/in/ivjs/) - Desenvolvedora Frontend
 - :information_desk_person: [Rhaissa Ferreira](https://www.linkedin.com/in/rhaissa-ferreira/) - Business
-- :raising_hand: [Sarah Thomaz](https://www.linkedin.com/in/sarah-thomaz-74821b94/) - Marketing
+- :raising_hand: [Sarah Thomaz](https://www.linkedin.com/in/sarah-thomaz-0607211b4) - Marketing
 
 
