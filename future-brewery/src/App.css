@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -15,14 +21,15 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 20vh;
+  min-height: 8vh;
   width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-right: 20px;
 }
 
 .App-footer {
@@ -31,23 +38,24 @@
   bottom: 0;
   width: 100%;
   min-height: 8vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .navigation {
+  margin-top: 8px;
   display: flex;
-  align-items: center;
+  justify-items: center;
+  width: 100%;
   justify-content: space-around;
 }
 
+.link {
+  color: white;
+}
+
 img {
-  width: 411px;
-  height: 163px;
+  width: 100%;
 }
 
 .main-container {
@@ -58,24 +66,40 @@ img {
 
 .buttons-container {
   display: flex;
-  width: 60%;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
   margin: 18px;
 }
 
 .btn {
-  font-size: large;
+  font-size: 10px;
+  font-weight: 600;
+  width: 97px;
   letter-spacing: 2px;
   background-color: #F3E04E;
-  color: #282c34;
+  color: #535558;
   border: none;
+  margin-bottom: 6px;
 }
 
 .packaging-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.lavadora-container {
+  width: 70%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px black solid;
+}
+
+.page-title {
+  margin: auto;
 }
 
 /* .ingredients-container {
