@@ -11,7 +11,12 @@ function Main () {
   <div>
     <Header title={"Home"} />
     <div className="main-container">
+      <br />
+      <br />
       <Buttons />
+      <br />
+      <br />
+      <br />
       <Carousel>
         <Carousel.Item>
           <img
